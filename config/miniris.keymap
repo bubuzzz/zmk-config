@@ -21,22 +21,19 @@ default_layer { bindings = <
   &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B  &kp C_MUTE  &kp C_MUTE  &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
                                    &kp LGUI   &mo L1     &kp SPACE                      &kp RET    &mo R1     &mo R2                                         >;sensor-bindings = <
                                                                                                                                                             &inc_dec_kp N0 N1 &inc_dec_kp C_VOL_DN C_VOL_UP
-                                                                                                                                                            >; };
-b1_layer { bindings = <
+                                                                                                                                                            >; };b1_layer { bindings = <
   ______     ______     ______     ______     ______     ______                        ______     ______     ______     ______     ______     ______
   &kp ESC    &kp A      &kp S      &kp D      &kp F      &kp G                         &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp BSPC
   ______     ______     ______     ______     ______     ______     ______ ______      ______     ______     ______     ______     ______     ______
                                    &mo L2     &mo L1     &kp SPACE                     ______     &mo R1     &mo R2                                         >;sensor-bindings = <
                                                                                                                                                             &inc_dec_kp N0 N1 &inc_dec_kp C_VOL_DN C_VOL_UP
-                                                                                                                                                            >; 
- l1_layer { bindings = <
+                                                                                                                                                            >;l1_layer { bindings = <
   ______     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9                        &kp PG_UP  &kp HOME   &kp END    &kp PG_DN  &kp INS    ______
   ______     &kp N1     &kp N2     &kp N3     &kp N4     &kp N0                        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DEL    ______
   ______     ______     &kp N8     &kp N7     &kp N6     ______     ______ ______      ______     ______     ______     ______     ______     ______
                                    &mo L2     &mo L1     ______                        ______     &mo R1     &mo R2                                         >;sensor-bindings = <
                                                                                                                                                             &inc_dec_kp N0 N1 &inc_dec_kp PG_UP PG_DN
-                                                                                                                                                            >; };
-r1_layer { bindings = <
+                                                                                                                                                            >; };r1_layer { bindings = <
   ______     ______     &kp LT     &kp GRAVE  &kp GT     ______                        &kp AT     &kp LBKT   &kp MINUS  &kp RBKT   ______     ______
   ______     &kp BSLH   &kp LBRC   &kp EQUAL  &kp RBRC   &kp HASH                      &kp UNDER  &kp LPAR   &kp DQT    &kp RPAR   ______     ______
   ______     &kp PRCNT  &kp EXCL   &kp PLUS   &kp TILDE  &kp CARET  ______ ______      &kp AMPS   &kp STAR   &kp DLLR   &kp PIPE   ______     ______
@@ -48,36 +45,31 @@ r1_layer { bindings = <
   ______     ______     &kp F8     &kp F7     &kp F6     &kp F12    ______ ______      ______     &kp RGUI   &kp RSHFT  &kp RCTRL  &kp RALT   ______
                                    &mo L2     &mo L1     ______                        ______     &mo R1     &mo R2                                         >;sensor-bindings = <
                                                                                                                                                             &inc_dec_kp N0 N1 &inc_dec_kp PG_UP PG_DN
-                                                                                                                                                            >; };
-r2_layer { bindings = <
+                                                                                                                                                            >; };r2_layer { bindings = <
   ______     ______     ______     ______     ______     ______                        ______     ______     ______     ______     ______     ______
   ______     &kp LSHFT  &kp LGUI   &kp LALT   &kp LCTRL  ______                        ______     &kp RCTRL  &kp RALT   &kp RGUI   &kp RSHFT  ______
   ______     ______     ______     ______     ______     ______     ______ ______      ______     ______     ______     ______     ______     ______
                                    &mo L2     &mo L1     ______                        ______     &mo R1     &mo R2                                         >;sensor-bindings = <
                                                                                                                                                             &inc_dec_kp N0 N1 &inc_dec_kp PG_UP PG_DN
-                                                                                                                                                            >; };
-l1r1_layer { bindings = <
+                                                                                                                                                            >; };l1r1_layer { bindings = <
   ______     ______     &kp F5     &kp F4     &kp F3     &kp F11                       ______     ______     ______     ______     ______     ______
   ______     &kp LGUI   &kp F2     &kp F1     &kp F10    &kp F9                        ______     &kp LCTRL  &kp LALT   &kp LGUI   &kp LSHFT  ______
   ______     ______     &kp F8     &kp F7     &kp F6     &kp F12    ______ ______      ______     &kp RCTRL  &kp RALT   &kp RGUI   &kp RSHFT  ______
                                    &mo L2     &mo L1     ______                        ______     &mo R1     &mo R2                                         >;sensor-bindings = <
                                                                                                                                                             &inc_dec_kp N0 N1 &inc_dec_kp PG_UP PG_DN
-                                                                                                                                                            >; };
-l1l2_layer { bindings = <
+                                                                                                                                                            >; };l1l2_layer { bindings = <
   btlder     ______     ______     ______     ______     ______                        ______     ______     ______     ______     ______     btlder
   ______     ______     ______     ______     ______     ______                        ______     ______     ______     ______     ______     ______
   ______     ______     ______     ______     ______     ______     &reset &reset      ______     ______     ______     ______     ______     ______
                                    &mo L2     &mo L1     ______                        ______     &mo R1     &mo R2                                         >;sensor-bindings = <
                                                                                                                                                             &inc_dec_kp N0 N1 &inc_dec_kp PG_UP PG_DN
-                                                                                                                                                            >; };
-r1r2_layer { bindings = <
+                                                                                                                                                            >; };r1r2_layer { bindings = <
   btlder     ______     ______     ______     ______     ______                        ______     ______     ______     ______     ______     btlder
   ______     ______     ______     ______     ______     ______                        ______     ______     ______     ______     ______     ______
   ______     ______     ______     ______     ______     ______     &reset &reset      ______     ______     ______     ______     ______     ______
                                    &mo L2     &mo L1     ______                        ______     &mo R1     &mo R2                                         >;sensor-bindings = <
                                                                                                                                                             &inc_dec_kp N0 N1 &inc_dec_kp PG_UP PG_DN
-                                                                                                                                                            >; };
-l1r1r2_layer { bindings = <
+                                                                                                                                                            >; };l1r1r2_layer { bindings = <
   xbt_n      rgb_tg     pwr_tg     ______     ______     ______                        rgb_sv     pwr_on     rgb_bn     rgb_sn     rgb_hn     rgb_en
   xbt_p      df_b0      df_b1      ______     ______     ______                        pwr_sv     pwr_off    rgb_bp     rgb_sp     rgb_hp     rgb_ep
   out_b      xbt_s0     xbt_s1     xbt_s2     xbt_s3     xbt_s4     ______ ______      ______     ______     ______     ______     ______     ______
