@@ -36,7 +36,7 @@ default_layer { bindings = <
                                                                                                                                                             >; };r1_layer { bindings = <
   ______     ______     &kp LT     &kp GRAVE  &kp GT     ______                        &kp AT     &kp LBKT   &kp MINUS  &kp RBKT   ______     ______
   ______     &kp BSLH   &kp LBRC   &kp EQUAL  &kp RBRC   &kp HASH                      &kp UNDER  &kp LPAR   &kp DQT    &kp RPAR   ______     ______
-  ______     &kp PRCNT  &kp EXCL   &kp PLUS   &kp TILDE  &kp CARET  ______ ______      &kp AMPS   &kp STAR   &kp DLLR   &kp PIPE   ______     ______
+  ______     &kp PRCNT  &kp COLON  &kp STAR   &kp PLUS  &kp TILDE   ______ ______      &kp DLLR   &kp STAR   &kp CARET  &kp PIPE   ______     ______
                                    &mo L2     &mo L1     ______                        ______     &mo R1     &mo R2                                         >;sensor-bindings = <
                                                                                                                                                             &inc_dec_kp N0 N1 &inc_dec_kp PG_UP PG_DN
                                                                                                                                                             >; };l2_layer { bindings = <
