@@ -6,6 +6,8 @@
 #define ZLGUI &bht LGUI Z
 #define SLHRGUI &bht RGUI FSLH
 
+#define HYPTAB &bht LS(LC(LGUI)) TAB       //
+
 #define ______ &trans
 
 #define btlder &bootloader

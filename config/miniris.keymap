@@ -16,7 +16,7 @@ keymap {
 compatible = "zmk,keymap";
 default_layer { bindings = <
 
-  &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T                          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSLH
+  HYPTAB    &kp Q      &kp W      &kp E      &kp R      &kp T                          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSLH
   LC_ESC     &kp A      &kp S      &kp D      &kp F      &kp G                          &kp H      &kp J      &kp K      &kp L      &kp SEMI  RC_BSPC
   &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B  &kp C_MUTE  &kp C_MUTE  &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
                                    &kp LGUI   &mo L1     &kp SPACE                      &kp RET    &mo R1     &mo R2                                         >;sensor-bindings = <
