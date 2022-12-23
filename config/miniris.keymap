@@ -20,7 +20,7 @@ default_layer { bindings = <
   LC_ESC     &kp A      &kp S      &kp D      &kp F      &kp G                          &kp H      &kp J      &kp K      &kp L      RALT_SEMI  RC_BSPC
   &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B  &kp C_MUTE  &kp C_MUTE  &kp N      &kp M      &kp COMMA  RGUI_DOT   RCTL_FSLH  &kp RSHFT
                                    &kp LGUI   &mo L1     &kp SPACE                      &kp RET    &mo R1     &mo R2                                         >;sensor-bindings = <
-                                                                                                                                                            &inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp C_VOL_DN C_VOL_UP
+                                                                                                                                                            &inc_dec_kp C_VOL_DN C_VOL_UP  &inc_dec_kp C_BRI_DN C_BRI_UP 
                                                                                                                                                             >; };b1_layer { bindings = <
   ______     ______     ______     ______     ______     ______                        ______     ______     ______     ______     ______     ______
   &kp ESC    &kp A      &kp S      &kp D      &kp F      &kp G                         &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp BSPC
