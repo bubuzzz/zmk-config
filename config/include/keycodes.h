@@ -43,5 +43,6 @@
 
 #define LC_ESC  &mt  LCTRL ESCAPE
 #define RC_BSPC &htp RCTRL BSPC
+#define ZGUI    &lt LGUI Z 
 
 #define L1_SPC  &ltp L1 SPACE
