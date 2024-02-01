@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: thxph
-      url-base: https://github.com/thxph
+    - name: chithanh12
+      url-base: https://github.com/chithanh12
   projects:
     - name: zmk
-      remote: thxph
-      revision: thxph
+      remote: chithanh12
+      revision: main
       import: app/west.yml
   self:
     path: config
