@@ -21,3 +21,7 @@ include:
     shield: miniris_left
   - board: nrfmicro_13
     shield: miniris_right
+  - board: nice_nano_v2
+    shield: miniris_left
+  - board: nice_nano_v2
+    shield: miniris_right

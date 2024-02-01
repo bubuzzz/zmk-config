@@ -1,9 +1,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-#define TAPPING_TERM_MS 300
-#define TAPPING_TERM_MS_FAST 250
-#define TAPPING_TERM_MS_SLOW 600
+#define TAPPING_TERM_MS 250
+#define TAPPING_TERM_MS_FAST 200
+#define TAPPING_TERM_MS_SLOW 400
 
 &mt {
     tapping-term-ms = <180>;
